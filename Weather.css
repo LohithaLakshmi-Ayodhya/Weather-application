@@ -1,0 +1,75 @@
+.card{
+   background: linear-gradient(to right bottom, blue,black);
+   place-self: center;
+   justify-content: center;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0,9834);
+   align-items: center;
+   gap:1px;
+   padding: 30px;
+   line-height: 1;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+}
+
+.card search_bar{
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   padding: 15px;;
+   align-items: center;
+   padding-right: 200px;
+   justify-content: space-between;
+}
+
+input{
+   border-radius:30px;
+   height: 35px;
+   background-color: azure;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15px;
+   margin-left: 30px;
+   padding-left: 25px;
+   padding-right: 25px;
+   border: none;
+}
+
+.card Button{
+   background-color: azure;
+   border-radius:30px;
+   height: 35px;
+}
+
+.card img{
+   display:grid;
+   flex-direction: column;
+   height:150px;
+   width: 150px;
+}
+
+.temp{
+   color:rgb(226, 226, 137);
+   font-size: 60px;
+}
+ .place{
+   color:rgb(226, 226, 137);
+   font-size: 30px;
+ }
+
+ .humiditywind{
+    display: flex;
+    width:100%;
+    margin-top:40px;
+    justify-content: space-between;
+    color:rgb(226, 226, 137);
+    font-size: 20px;
+ }
+
+ .humiditywind img{
+    height:50px;
+    width:50px;
+    justify-content: space-around;
+    column-gap: 20px;
+ }
